@@ -1,0 +1,299 @@
+#header h1 {
+ text-shadow: 8px 6px rgba(39, 33, 33, 0.6);
+ color: #f2eee5;
+}
+
+#header h2 {
+ color: #e6f8f9;
+ text-shadow: 3px 4px rgba(60, 66, 69, 0.6);
+}
+
+#logo {
+ width: 60px;
+ height: 60px;
+ padding: 2px;
+}
+
+#our-service {
+ min-height: 250px;
+ background: #262626;
+
+}
+
+#our-service h2 {
+ text-align: center;
+ padding-top: 100px;
+ font-size: 45px;
+ font-family: 'Yeon Sung', cursive;
+}
+
+#our-service p {
+ font-size: 25px;
+ text-align: center;
+ font-family: 'Dosis', sans-serif;
+ padding-bottom: 4px;
+}
+
+#our-service a {
+ text-decoration: none;
+ color: #4b8e8d;
+ font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+#our-service a:hover {
+ text-decoration: none;
+ color: #396362;
+}
+
+#main-1-section {
+ font-size: 28px;
+ font-family: 'Dosis', sans-serif;
+ font-weight: bold;
+ text-align: center;
+}
+
+#main-1-section h2 {
+ text-align: center;
+ border-left: solid 10px #57007e;
+
+ border-radius: 8px;
+ font-family: 'Dosis', sans-serif;
+
+}
+
+#main-2-section {
+ font-size: 28px;
+ font-family: 'Dosis', sans-serif;
+ font-weight: bold;
+}
+
+#main-2-section h2 {
+ text-align: center;
+ border-right: solid 10px #57007e;
+
+ border-radius: 8px;
+ font-family: 'Dosis', sans-serif;
+
+}
+
+#main-2-section ul {
+ list-style-type: none;
+}
+
+#main-2-section li a {
+
+ font-weight: bold;
+ font-family: 'McLaren', cursive;
+ text-decoration: none;
+}
+
+#main-2-section li a:hover {
+ color: #003f5c;
+ text-decoration: none;
+}
+
+#about-main {
+ min-height: 70vh;
+ background: #262626;
+
+}
+
+#about-main h2 {
+ text-align: center;
+ padding-top: 100px;
+ font-size: 50px;
+ font-family: 'Yeon Sung', cursive;
+}
+
+#about-main p {
+ padding-bottom: 10px;
+ font-size: 25px;
+ text-align: center;
+ font-family: 'Dosis', sans-serif;
+}
+
+#about-main a {
+ text-decoration: none;
+ color: #4b8e8d;
+ font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+#about-main a:hover {
+ text-decoration: none;
+ color: #396362;
+}
+
+#postal-section h2 {
+ text-align: center;
+ border-radius: 8px;
+ font-family: 'Dosis', sans-serif;
+
+}
+
+#postal-section {
+ font-size: 28px;
+ font-family: 'Dosis', sans-serif;
+ font-weight: bold;
+}
+
+
+#postal-section ul {
+ list-style-type: none;
+}
+
+#postal-section li {
+ color: #003f5c;
+ font-weight: bold;
+ font-family: 'McLaren', cursive;
+}
+
+#postal-section li a {
+
+ font-weight: bold;
+ font-family: 'McLaren', cursive;
+ text-decoration: none;
+}
+
+#postal-section li a:hover {
+ color: #003f5c;
+ text-decoration: none;
+}
+
+
+.postal-span {
+ font-family: 'ZCOOL KuaiLe', cursive;
+ color: #003f5c;
+}
+
+footer p {
+ font-size: 24px;
+ font-family: 'Dosis', sans-serif;
+ text-decoration: none;
+ color: white;
+}
+
+footer a,
+a:hover {
+ text-decoration: none;
+ color: #f5f0e3;
+ font-weight: bold;
+}
+
+.cus-button {
+ background: #C400C6;
+ font-size: 20px;
+ color: white;
+ font-weight: 700;
+}
+
+.img-size {
+ width: 40px;
+ height: 40px;
+ margin: 4px 7px 0 0;
+}
+
+.underline-span {
+ font-family: 'ZCOOL KuaiLe', cursive;
+ color: #c400c6;
+}
+
+.customers-span {
+ font-style: italic;
+ color: #0d0d0d;
+}
+
+.cus-yellow {
+ background: rgba(255, 220, 52, 0.2);
+}
+
+.cus-green {
+ background: rgba(0, 121, 68, 0.2);
+}
+
+.cus-purple {
+ background: rgba(57, 55, 91, 0.2);
+}
+
+
+
+@media only screen and (min-width:240px) and (max-width : 569px) {
+
+ #header h1 {
+  font-size: 55px;
+ }
+
+ #header h2 {
+  font-size: 25px;
+ }
+
+
+ .cus-button {
+  font-size: 15px;
+  padding: 20px;
+ }
+
+
+ #main-1-section,
+ #main-2-section,
+ #postal-section {
+  font-size: 15px;
+ }
+
+ #main-1-section h2,
+ #main-2-section h2,
+ #postal-section h2 {
+  font-size: 25px;
+
+ }
+
+ #main-2-section li a,
+ #postal-section li a {
+
+  font-size: 15px;
+ }
+
+ #navbar-brand {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+ }
+
+ .img-size {
+  width: 20px;
+  height: 20px;
+
+ }
+
+ #nav-burger {
+  font-size: 15px;
+  padding: 4px;
+ }
+
+ #our-service,
+ #about-main h2 {
+  font-size: 30px;
+ }
+
+ #our-service,
+ #about-main p {
+  font-size: 18px;
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+ footer p {
+  font-size: 14px;
+ }
+
+
+}
